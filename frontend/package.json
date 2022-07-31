@@ -1,0 +1,41 @@
+{
+  "name": "breeze-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export -o ../backend/public",
+    "start": "next dev"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.9.3",
+    "@emotion/react": "^11.9.3",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.9.3",
+    "@emotion/stylis": "^0.8.5",
+    "@headlessui/react": "^1.4.2",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.2",
+    "@mui/styled-engine-sc": "^5.8.0",
+    "axios": "^0.21.1",
+    "clsx": "^1.2.1",
+    "next": "^12.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "swr": "^1.2.2"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.12.1",
+    "@next/eslint-plugin-next": "^10.0.4",
+    "autoprefixer": "^10.4.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-next": "^0.0.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-react": "^7.22.0",
+    "prettier": "2.2.1",
+    "pusher-js": "^7.1.0-beta",
+    "simple-peer": "^9.11.1"
+  }
+}
